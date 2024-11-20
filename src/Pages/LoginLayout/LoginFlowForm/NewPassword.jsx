@@ -28,14 +28,14 @@ const NewPassword = () => {
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>New Password</Form.Label>
                         <div className='eye-setup'>
-                            <Form.Control type={eyeOpen ? 'text' : 'password'} placeholder="Enter New Password" />
+                            <Form.Control type={eyeOpen ? 'text' : 'password'} placeholder="Enter New Password here" />
                             <img src={eyeOpen ? Assets.eyeOpen : Assets.eyeClose} alt="eye-image" className='eye-img' onClick={() => setEyeOpen(!eyeOpen)} />
                         </div>
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Confirm New Password</Form.Label>
                         <div className='eye-setup'>
-                            <Form.Control type={eyeOpenTwo ? 'text' : 'password'} placeholder="Enter Confirm Password" />
+                            <Form.Control type={eyeOpenTwo ? 'text' : 'password'} placeholder="Re-enter New Password here" />
                             <img src={eyeOpenTwo ? Assets.eyeOpen : Assets.eyeClose} alt="eye-image" className='eye-img' onClick={() => setEyeOpenTwo(!eyeOpenTwo)} />
                         </div>
                     </Form.Group>
