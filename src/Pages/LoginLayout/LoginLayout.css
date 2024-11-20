@@ -1,0 +1,71 @@
+.left-image-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../Assets/Images/Login/digi_bg.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;  
+    height: 633px;
+  }
+  .wel-content{
+    margin-top: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .txt-center{
+    text-align: center;
+  }
+  .color-txt{
+    color: #45728B;
+  }
+  .form-head{
+    margin-top: 20px;
+    font-size: 22px;
+    margin-bottom: 15px;
+
+  }
+  .forgot-ps{
+    color: #45728B;
+  }
+  .form-box{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+  .right-sec{
+    margin-top: 50px;
+  }
+  .forgot-text {
+    float: right;
+    margin-bottom: 10px;
+}
+.login-form button {
+    width: 100%;
+    border: 0px;
+    background-color: #45728B;
+    padding: 12px 5px;
+}
+.login-form button:hover {
+    background-color: #45728B;
+}
+.login-form .back-sgin-btn{
+    border: 1px solid #45728B;
+    outline: #45728B;
+    background-color: #ffff;
+    color: #45728B;
+}
+.eye-setup{
+  position: relative;
+  cursor: pointer;
+}
+.eye-img {
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  transform: translateY(-50%);
+}
